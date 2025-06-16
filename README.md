@@ -41,7 +41,7 @@ The "secret sauce" the core mathematical engine of the UCF (`ucf_core10.py`)—i
 
 ### Prerequisites:
 - Python 3.9+
-- The proprietary `ucf_core10.py` file placed in the same directory
+- The `ucf_core10.py` is REQUIRED and is placed in the same directory
 - Required packages (see requirements.txt)
 
 ### Installation & Execution:
@@ -60,4 +60,4 @@ python main.py
 
 **Note:** The script will show an error if the proprietary `ucf_core10.py` file is not present.
 
-### The CHIME/FRB Collaboration., Andersen, B.C., Bandura, K. et al. Sub-second periodicity in a fast radio burst. Nature 607, 256–259 (2022). https://doi.org/10.1038/s41586-022-04841-8
+### The CHIME/FRB Collaboration, et al. "The First CHIME/FRB Fast Radio Burst Catalog." The Astrophysical Journal Supplement Series, vol. 257, no. 2, 2021, p. 59. DOI: 10.3847/1538-4365/ac33ab.
