@@ -29,13 +29,14 @@ The "secret sauce" the core mathematical engine of the UCF (`ucf_core10.py`)—i
 
 ## 🔬 How It Works
 
-**Data Source:** The script uses published parameters from 30 genuine Fast Radio Bursts from the CHIME telescope to reconstruct their electromagnetic signals.
+##Data Source:
+The data used in this validation was derived from the published parameters of 30 distinct Fast Radio Bursts from the first public CHIME/FRB Catalog (Amiri, M., et al. 2021, ApJS, 257, 59). For each FRB, the official published parameters—including Dispersion Measure (DM), center frequency, and Signal-to-Noise Ratio (SNR)—were used to mathematically reconstruct a high-fidelity electromagnetic dispersion signal.
 
-**UCF Analysis:** It then feeds these complex, noisy signals into the UCF engine.
+##Analysis Pipeline:
 
-**Pattern Recognition:** The framework identifies deep mathematical relationships between the signals' physical properties (like frequency and dispersion) and their complexity signatures.
-
-**Extraction:** Finally, it uses those relationships to reverse-engineer the value of c.
+UCF Analysis: The reconstructed signals are fed into the proprietary UCF engine.
+Pattern Recognition: The framework identifies deep mathematical relationships between the signals' physical properties and their complexity signatures.
+Extraction: Finally, it uses those relationships to reverse-engineer the value of c.
 
 ## 🛠️ How to Run the Demo
 
