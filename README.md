@@ -1,7 +1,8 @@
 # The Universal Complexity Framework: Extracting the Speed of Light from Cosmic Data
 
-## What is this?
+![ucf_cosmic_validation_demo](https://github.com/user-attachments/assets/5f6700cb-2dbe-4d82-a5ca-9f18c891857e)
 
+## What is this?
 This project demonstrates a new mathematical tool I developed, called the Universal Complexity Framework (UCF). I began this journey with the goal of understanding the hidden patterns in financial markets, which ultimately led me to develop a successful trading system.
 
 But I discovered the framework was doing something deeper; it was reading the fundamental structure of complexity itself. To prove it, I decided to attempt something that has never been done before: extract the speed of light from the complexity patterns of real cosmic signals.
