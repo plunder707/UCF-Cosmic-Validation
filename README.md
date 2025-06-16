@@ -58,3 +58,5 @@ python cosmic_validation_demo.py
 ```
 
 **Note:** The script will show an error if the proprietary `ucf_core.py` file is not present.
+
+## The CHIME/FRB Collaboration., Andersen, B.C., Bandura, K. et al. Sub-second periodicity in a fast radio burst. Nature 607, 256–259 (2022). https://doi.org/10.1038/s41586-022-04841-8
