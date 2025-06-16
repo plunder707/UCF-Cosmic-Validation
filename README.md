@@ -60,5 +60,3 @@ python main.py
 ```
 
 **Note:** The script will show an error if the proprietary `ucf_core10.py` file is not present.
-
-### The CHIME/FRB Collaboration, et al. "The First CHIME/FRB Fast Radio Burst Catalog." The Astrophysical Journal Supplement Series, vol. 257, no. 2, 2021, p. 59. DOI: 10.3847/1538-4365/ac33ab.
