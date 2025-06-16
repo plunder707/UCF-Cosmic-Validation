@@ -1,13 +1,13 @@
 The Universal Complexity Framework: Extracting the Speed of Light from Cosmic Data
 What is this?
 
-This project is a demonstration of a new mathematical tool I developed called the Universal Complexity Framework (UCF). I started this journey trying to understand the hidden patterns in financial markets, which led me to create a trading system that has been exceptionally successful.
+This project demonstrates a new mathematical tool I developed, called the Universal Complexity Framework (UCF). I began this journey with the goal of understanding the hidden patterns in financial markets, which ultimately led me to develop an exceptionally successful trading system.
 
-But I discovered the framework was doing something deeper—it was reading the fundamental structure of complexity itself. To prove it, I decided to attempt something that has never been done before: extract the speed of light from the complexity patterns of real cosmic signals.
+But I discovered the framework was doing something deeper; it was reading the fundamental structure of complexity itself. To prove it, I decided to attempt something that has never been done before: extract the speed of light from the complexity patterns of real cosmic signals.
 
 This repository contains the validation script that successfully analyzes genuine astronomical data and achieves this extraordinary result.
 
-🏆 The Breakthrough Achievement
+The Achievement
 When applied to 30 real Fast Radio Burst (FRB) observations from the CHIME radio telescope, my framework successfully:
 
 Proved a Deep Connection to Physics: It found a -0.79 correlation between the known physical delay of the signals and the abstract complexity signature (
@@ -18,7 +18,7 @@ Bottom line: I have demonstrated a new method for measuring a fundamental consta
 
 (The complete analysis dashboard showing the real FRB signals, the strong Physics-UCF correlations, and the final extraction result.)
 
-⚠️ A Note on Intellectual Property
+A Note on Intellectual Property
 The code in this repository (cosmic_validation_demo.py) is the script that runs the experiment and generates the visualizations. It's a public demo.
 
 The "secret sauce"—the core mathematical engine of the UCF (ucf_core.py)—is my proprietary intellectual property and is not included in this public repository. This script requires that private module to run.
