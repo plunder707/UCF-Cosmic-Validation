@@ -17,7 +17,7 @@ import logging
 from astropy import units as u
 from astropy.cosmology import Planck18 as cosmo
 
-# Import UCF core framework
+# Import UCF core engine
 try:
     from ucf_core10 import UCFEMExtractor, PhysicsConstants, enhanced_preprocess_data, EnhancedFRBObservation
     print("✅ Core UCF framework loaded successfully.")
@@ -36,8 +36,6 @@ cfod_available = False
 try:
     import cfod
     print("✅ CHIME/FRB Open Data package imported successfully!")
-    
-    # Simple diagnostic - see what's actually available
     print(f"📋 Available in cfod: {[attr for attr in dir(cfod) if not attr.startswith('_')]}")
     
     try:
@@ -45,7 +43,7 @@ try:
         print("✅ CHIME/FRB catalog module loaded!")
         cfod_available = True
     except ImportError:
-        # Try the most obvious alternative
+        # Try alternative
         if hasattr(cfod, 'Catalog'):
             catalog = cfod.Catalog
             print("✅ Found cfod.Catalog instead!")
@@ -78,7 +76,7 @@ class CosmicValidationDemo:
         
         self.logger.info("📡 Loading CHIME/FRB Catalog...")
         
-        # Try real CHIME catalog first
+        # Try CHIME catalog first
         if cfod_available and catalog is not None:
             try:
                 return self._process_real_chime_catalog(max_frbs)
@@ -155,9 +153,9 @@ class CosmicValidationDemo:
             return self._load_published_data(max_frbs)
     
     def _load_published_data(self, max_frbs: int) -> List[EnhancedFRBObservation]:
-        """Load enhanced FRB data from published literature with better physics"""
+        """Load enhanced FRB data from published literature with physics"""
         
-        # FRB dataset with more accurate parameters from literature
+        # FRB dataset with parameters from published literature
         enhanced_frbs = [
             {'name': 'FRB 180916.J0158+65', 'dm': 348.8, 'freq': 600, 'snr': 15.2, 'width': 4.8, 'fluence': 58, 'bw': 400},
             {'name': 'FRB 121102', 'dm': 557.4, 'freq': 550, 'snr': 22.1, 'width': 3.2, 'fluence': 92, 'bw': 300},
@@ -389,7 +387,7 @@ class CosmicValidationDemo:
         
         print("📊 Creating Demonstration Visualizations...")
         
-        # Create comprehensive figure
+        # Create figure
         fig = plt.figure(figsize=(20, 16))
         gs = fig.add_gridspec(4, 4, hspace=0.3, wspace=0.3)
         
