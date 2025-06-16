@@ -29,10 +29,10 @@ The "secret sauce" the core mathematical engine of the UCF (`ucf_core10.py`)—i
 
 ## 🔬 How It Works
 
-##Data Source:
+## Data Source:
 The data used in this validation was derived from the published parameters of 30 distinct Fast Radio Bursts from the first public CHIME/FRB Catalog (Amiri, M., et al. 2021, ApJS, 257, 59). For each FRB, the official published parameters—including Dispersion Measure (DM), center frequency, and Signal-to-Noise Ratio (SNR)—were used to mathematically reconstruct a high-fidelity electromagnetic dispersion signal.
 
-##Analysis Pipeline:
+## Analysis Pipeline:
 
 UCF Analysis: The reconstructed signals are fed into the proprietary UCF engine.
 Pattern Recognition: The framework identifies deep mathematical relationships between the signals' physical properties and their complexity signatures.
